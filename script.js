@@ -16,7 +16,3 @@ function showPrev() {
   }
   sliderItems[currentIndex].classList.add("active");
 }
-
-
-// ADDED WITH COMMIT COMMAND
-// CHANGED 
