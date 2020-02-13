@@ -16,3 +16,5 @@ function showPrev() {
   }
   sliderItems[currentIndex].classList.add("active");
 }
+
+//EDITED
