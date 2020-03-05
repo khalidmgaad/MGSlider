@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <title>MGSlider</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/fc95246875.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h2 style="text-align: center;margin: auto;">MGSlider</h2>
     <div class="slider">
-        <button onclick="showPrev()" id="slider-prev" class="slider-btn slider-prev">&lt;</button>
+        <a onclick="showPrev()" id="slider-prev" class="slider-btn slider-prev"><i class="fas fa-chevron-left"></i></a>
         
         <div class="slider-item active">
             <img class="slider-item-image" src="http://source.unsplash.com/hpjSkU2UYSU" alt="laptop">
             <div class="slider-item-description">
                 <h3 class="slider-item-title">Slider Item 1</h3>
                 <p class="slider-item-detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates rem inventore accusantium tempore ab id numquam nostrum recusandae totam!</p>
-                <a href="#" class="slider-item-cta">Visite</a>
+                <a href="#" class="slider-item-cta"><div class="content"><i class="fas fa-chevron-right"></i> Visite</div></a>
             </div>
         </div>
 
@@ -25,20 +24,31 @@
             <div class="slider-item-description">
                 <h3 class="slider-item-title">Slider Item 2</h3>
                 <p class="slider-item-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia velit incidunt illum, dolorem aspernatur explicabo maxime! Mollitia ipsam, cupiditate fugiat, excepturi sed vitae animi aliquam, nihil quam nemo blanditiis eaque.</p>
-                <a href="#" class="slider-item-cta">Visite</a>
+                <a href="#" class="slider-item-cta"><div class="content"><i class="fas fa-chevron-right"></i> Visite</div></a>
+            </div>
+        </div>
+        
+        <div class="slider-item active">
+            <img class="slider-item-image" src="http://source.unsplash.com/SYTO3xs06fU" alt="laptop">
+            <div class="slider-item-description">
+                <h3 class="slider-item-title">Slider Item 3</h3>
+                <p class="slider-item-detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates rem inventore accusantium tempore ab id numquam nostrum recusandae totam!</p>
+                <a href="#" class="slider-item-cta"><div class="content"><i class="fas fa-chevron-right"></i> Visite</div></a>
             </div>
         </div>
 
         <div class="slider-item active">
             <img class="slider-item-image" src="http://source.unsplash.com/SYTO3xs06fU" alt="laptop">
             <div class="slider-item-description">
-                <h3 class="slider-item-title">Slider Item 3</h3>
+                <h3 class="slider-item-title">Slider Item 4</h3>
                 <p class="slider-item-detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates rem inventore accusantium tempore ab id numquam nostrum recusandae totam!</p>
-                <a href="#" class="slider-item-cta">Visite</a>
+                <a href="#" class="slider-item-cta"><div class="content"><i class="fas fa-chevron-right"></i> Visite</div></a>
             </div>
         </div>
 
-        <button onclick="showNext()" class="slider-btn slider-next">&gt;</button>
+        <a onclick="showNext()" class="slider-btn slider-next"><i class="fas fa-chevron-right"></i></a>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
